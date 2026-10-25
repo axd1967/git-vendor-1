@@ -383,6 +383,8 @@ Git subtree solves the collaboration problems by embedding the vendored content 
 
 Additionally, `git subtree` does not support file name based filtering, which is important for my usecase.
 
+Note also that `git subtree` is not part of the core Git project, but resides under [`contrib/`](https://github.com/git/git/tree/master/contrib/subtree).
+
 #### [ingydotnet/git-subrepo](https://github.com/ingydotnet/git-subrepo)
 
 That tool solves a slightly different problem. `git-subrepo` is close to a feature-equivalent replacement for git submodules with an emphasis on pushing changes as collaborators. By contrast, `git-vendor` is more designed for a readonly view of someone else's code only upstreaming patches on rare occasions.
